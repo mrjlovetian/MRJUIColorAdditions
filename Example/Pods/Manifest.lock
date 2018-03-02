@@ -1,0 +1,16 @@
+PODS:
+  - MRJUIColorAdditions (0.1.0)
+
+DEPENDENCIES:
+  - MRJUIColorAdditions (from `../`)
+
+EXTERNAL SOURCES:
+  MRJUIColorAdditions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MRJUIColorAdditions: a72dd04fb5d358f81fbd7eae8fc9da76b6f03590
+
+PODFILE CHECKSUM: ab6bca37c2638000a19cb7af922f6bc38a8967d8
+
+COCOAPODS: 1.3.1
