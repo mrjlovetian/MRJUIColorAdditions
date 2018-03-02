@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MRJUIColorAdditions_Example' do
+  pod 'MRJUIColorAdditions', :path => '../'
+
+  target 'MRJUIColorAdditions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
