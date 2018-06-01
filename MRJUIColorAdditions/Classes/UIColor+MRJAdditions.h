@@ -6,7 +6,6 @@
 //  Copyright 2011 mysays.com. All rights reserved.
 //
 
-//http://arstechnica.com/apple/guides/2009/02/iphone-development-accessing-uicolor-components.ars
 #define SUPPORTS_UNDOCUMENTED_API	0
 
 #import <Foundation/Foundation.h>

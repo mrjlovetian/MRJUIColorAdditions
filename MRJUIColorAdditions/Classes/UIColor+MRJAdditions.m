@@ -513,7 +513,7 @@ static const char *colorNameDB = ","
 	
 	// Compile the string we'll use to search against the database
 	// We search for ",<colorname>#" to avoid false matches
-	const char *searchString = [[NSString stringWithFormat:@",%@#", cssColorName] UTF8String];
+	const char *searchString = [[NSString stringWithFormat:@", %@#", cssColorName] UTF8String];
 	
 	// Search for the color name
 	const char *found = strstr(colorNameDB, searchString);
