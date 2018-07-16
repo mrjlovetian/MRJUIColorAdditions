@@ -13,7 +13,7 @@
 #import <CoreImage/CoreImage.h>
 #import <UIKit/UIKit.h>
 
-@interface UIColor (UIColor_MRJAdditions)
+@interface UIColor (MRJAdditions)
 
 @property (nonatomic, readonly) CGColorSpaceModel colorSpaceModel;
 @property (nonatomic, readonly) BOOL canProvideRGBComponents;

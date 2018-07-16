@@ -40,6 +40,7 @@
 static NSMutableDictionary *colorNameCache = nil;
 
 #if SUPPORTS_UNDOCUMENTED_API
+
 // UIColor_Undocumented
 // Undocumented methods of UIColor
 @interface UIColor (UIColor_Undocumented)
@@ -52,7 +53,7 @@ static NSMutableDictionary *colorNameCache = nil;
 @end
 
 #pragma mark -
-@implementation UIColor (UIColor_Additions)
+@implementation UIColor (MRJAdditions)
 
 - (CGColorSpaceModel)colorSpaceModel {
 	return CGColorSpaceGetModel(CGColorGetColorSpace(self.CGColor));
